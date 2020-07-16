@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_GetAllTeams</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_CreateTeam</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_UpdatedTeam</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_DeleteTeams</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_ValidateEmptyTeam</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_GetAllUsers</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_CreateUser</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_UpdatedUser</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_DeleteUser</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Functional</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_ValidateEmptyUser</name>
+      <weight>2</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_validateEmptyStringForTeamName</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_validateEmptyStringForTeamMembers</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_validateEmptyStringForDomainOfWork</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_validateEmptyStringForTeamManager</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_validateUserEmail</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_ValidateEmptystringUsertype</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_ValidateEmptystringReportingTo</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+   <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+      <test-case-type>Boundary</test-case-type>
+      <expected-ouput>True</expected-ouput>
+      <name>Test_ValidateEmptystringMobile</name>
+      <weight>1</weight>
+      <mandatory>True</mandatory>
+      <desc>na</desc>
+   </cases>
+</test-cases>
